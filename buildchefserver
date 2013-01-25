@@ -1,0 +1,6 @@
+#!/usr/bin/ruby
+
+require './lib/couchdb/CouchDBMonitor'
+
+monitor = CouchDBMonitor.new()
+monitor.initialize()

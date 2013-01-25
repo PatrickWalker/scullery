@@ -1,0 +1,6 @@
+#!/usr/bin/ruby
+
+require 'scullery'
+
+
+monitor = Scullery::CouchDB::Monitor.new()
